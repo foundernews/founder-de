@@ -333,3 +333,23 @@ dialog.modal .fine{color:var(--muted);margin:14px 0 0}
 .csteps{list-style:none;padding:0;margin:2.2rem 0 1.6rem;display:grid;gap:12px}
 .csteps li{display:grid;grid-template-columns:52px 1fr;align-items:center;gap:14px;background:var(--ink-2);border:1px solid var(--line-dark);padding:16px 18px;border-radius:3px;font-size:1.06rem}
 .csteps .k{width:40px;height:40px;border-radius:50%;background:var(--yellow);color:var(--ink);display:grid;place-items:center;font-weight:800}
+
+/* Startseite Hero (Entwurf B) */
+.hero-b{position:relative;overflow:hidden;background:#2a2118;color:#fff}
+.hero-b .hb-bg{position:absolute;inset:0}
+.hero-b .hb-bg picture,.hero-b .hb-bg img{display:block;width:100%;height:100%;object-fit:cover;object-position:78% 40%}
+.hero-b .hb-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,16,12,.84) 0%,rgba(20,16,12,.64) 34%,rgba(20,16,12,.06) 58%,rgba(20,16,12,0) 100%)}
+.hero-b .wrap{position:relative;z-index:2;padding-top:64px;padding-bottom:72px;min-height:0;display:block}
+.hero-b .hb-col{max-width:470px;display:flex;flex-direction:column}
+.hero-b .badge{align-self:flex-start}
+.hero-b h1{font-size:clamp(2rem,3.4vw,2.9rem);color:#fff;margin-bottom:.4em}
+.hero-b .hb-sub{color:#efece6;font-size:1.08rem;margin-bottom:1.6rem}
+.hero-b .hb-poster{display:block;margin-bottom:1.6rem;border-radius:4px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.7);transition:transform .4s ease}
+.hero-b .hb-poster:hover{transform:scale(1.01)}
+.hero-b .gr-box{margin-top:0;max-width:none}
+.hero-b .gr-note{max-width:none}
+@media (max-width:860px){
+  .hero-b .hb-bg{bottom:auto;height:46vh}
+  .hero-b .hb-bg::after{background:linear-gradient(0deg,#2a2118 0%,rgba(42,33,24,0) 45%)}
+  .hero-b .wrap{padding-top:40vh}
+}
