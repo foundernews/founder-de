@@ -18,7 +18,13 @@
 <link rel="preload" href="assets/fonts/fraunces-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
-
+<!-- GetResponse (Formular Startseite) -->
+<script>
+(function(m, o, n, t, e, r, _){
+  m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+  r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode.insertBefore(r, _);
+})(window, document, 'script', 'https://an.gr-wcon.com/script/6c6dc7f7-077d-4675-bd87-45e26325aedc/ga.js', 'GrTracking');
+</script>
 </head>
 <body>
 <a class="skip" href="#main">Zum Inhalt springen</a>
@@ -32,11 +38,12 @@
 <section class="hero">
   <div class="hero-media"><picture><source srcset="assets/img/oliver-pott-sessel.webp" type="image/webp"><img src="assets/img/oliver-pott-sessel.jpg" alt="Dr. Oliver Pott" fetchpriority="high" style="object-position:70% 30%"></picture></div>
   <div class="wrap"><div class="hero-copy">
-    <button class="poster-card" data-modal="m-megaposter" aria-label="KI Agenten Megaposter kostenlos anfordern"><picture><source srcset="assets/img/ki-agenten-megaposter.webp" type="image/webp"><img src="assets/img/ki-agenten-megaposter.jpg" alt="KI Agenten Megaposter: So wird aus deinem Wissen ein Internet-Business" fetchpriority="high"></picture></button>
+    <a class="poster-card" href="#megaposter" aria-label="KI Agenten Megaposter kostenlos anfordern"><picture><source srcset="assets/img/ki-agenten-megaposter.webp" type="image/webp"><img src="assets/img/ki-agenten-megaposter.jpg" alt="KI Agenten Megaposter: So wird aus deinem Wissen ein Internet-Business" fetchpriority="high"></picture></a>
     <span class="badge">Kostenlos</span>
     <h1>KI Agenten Megaposter für dein eigenes Digital-Business.</h1>
     <p>Direkt 1:1 für deine Projekte verwendbar.</p>
-    <div class="btn-row"><a class="btn btn-yellow" href="#megaposter" data-modal="m-megaposter">Jetzt gratis downloaden<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    <div class="gr-box" id="megaposter"><getresponse-form form-id="5335f0e9-07d5-4681-82d8-785f0dc80067" e="0"></getresponse-form></div>
+    <p class="gr-note">100% Datenschutz und 0% Spam: Wir geben deine Daten niemals weiter! Wir tragen dich mit der Anforderung in unseren Newsletter ein, dort senden wir dir regelmäßig neue Informationen über uns und unsere Produkte. Informationen zum Datenschutz findest du im <a href="impressum/">Impressum</a>.</p>
   </div></div>
 </section>
 <section class="press-band" aria-label="Bekannt aus"><div class="wrap">
@@ -84,15 +91,7 @@
   </div>
   <p class="center mt3"><a class="link-arrow" href="buchen/#anfrage">Jetzt Kontakt mit Dr. Oliver Potts Privatbüro aufnehmen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
 </div></section>
-<dialog class="modal" id="m-megaposter" aria-labelledby="m-megaposter-t">
-<div class="m-top"><button class="x" aria-label="Schließen">×</button><p class="eyebrow">Kostenlos</p><h2 id="m-megaposter-t">KI Agenten Megaposter gratis</h2></div>
-<div class="m-body"><form class="form" data-form="megaposter" novalidate>
-<label>Deine beste E-Mail-Adresse<input type="email" name="email" required autocomplete="email" placeholder="Deine beste E-Mail-Adresse"></label>
-<div class="hp" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></div>
-<button class="btn btn-ink" type="submit">Absenden<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-<div class="form-msg" role="status"></div>
-<p class="fine">100% Datenschutz und 0% Spam: Wir geben deine Daten niemals weiter! Wir tragen dich mit der Anforderung in unseren Newsletter ein, dort senden wir dir regelmäßig neue Informationen über uns und unsere Produkte. Unsere Transparenzerklärung und Informationen zum Datenschutz findest du im <a href="impressum/">Impressum</a> unserer Website.</p>
-</form></div></dialog>
+
 </main>
 <footer class="site-footer"><div class="wrap">
 <div class="top">

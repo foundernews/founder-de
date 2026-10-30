@@ -317,3 +317,9 @@ dialog.modal .fine{color:var(--muted);margin:14px 0 0}
 .mt2{margin-top:2rem}.mt3{margin-top:3rem}
 .sp{height:1px;background:var(--line);margin:clamp(48px,6vw,80px) 0}
 .dark .sp{background:var(--line-dark)}
+
+/* GetResponse-Formular Startseite */
+.gr-box{background:#fff;color:var(--ink);border-radius:4px;padding:6px 4px;margin-top:1.6rem;max-width:470px;min-height:140px;box-shadow:0 30px 60px -24px rgba(0,0,0,.6);scroll-margin-top:110px}
+.gr-box getresponse-form{display:block}
+.gr-note{font-size:.76rem!important;line-height:1.5;color:#a7a39b!important;max-width:470px;margin-top:12px}
+.gr-note a{color:#d9d6cf}
