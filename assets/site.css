@@ -354,3 +354,12 @@ dialog.modal .fine{color:var(--muted);margin:14px 0 0}
   .hero-b .wrap{padding-top:40vh}
 }
 .hero-b .gr-box{background:transparent;padding:0;box-shadow:0 30px 60px -24px rgba(0,0,0,.55);min-height:0;border-radius:4px;overflow:hidden}
+/* Startseite: neues Foto (Garten) */
+.hero-b .hb-bg picture,.hero-b .hb-bg img{object-position:72% 30%}
+.hero-b .hb-bg::after{background:linear-gradient(90deg,rgba(28,20,10,.78) 0%,rgba(28,20,10,.58) 32%,rgba(28,20,10,.12) 52%,rgba(28,20,10,0) 64%)}
+@media (max-width:860px){
+  .hero-b .hb-bg{height:52vh}
+  .hero-b .hb-bg picture,.hero-b .hb-bg img{object-position:68% 20%}
+  .hero-b .hb-bg::after{background:linear-gradient(0deg,#2a2118 0%,rgba(42,33,24,0) 40%)}
+  .hero-b .wrap{padding-top:46vh}
+}
