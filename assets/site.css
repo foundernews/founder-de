@@ -353,3 +353,4 @@ dialog.modal .fine{color:var(--muted);margin:14px 0 0}
   .hero-b .hb-bg::after{background:linear-gradient(0deg,#2a2118 0%,rgba(42,33,24,0) 45%)}
   .hero-b .wrap{padding-top:40vh}
 }
+.hero-b .gr-box{background:transparent;padding:0;box-shadow:0 30px 60px -24px rgba(0,0,0,.55);min-height:0;border-radius:4px;overflow:hidden}
